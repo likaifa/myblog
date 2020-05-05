@@ -1,0 +1,1232 @@
+2020-05-02 08:58:12.517  INFO 29116 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 08:58:13.049  WARN 29116 --- [http-nio-80-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-02 08:58:13.156  WARN 29116 --- [http-nio-80-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-02 08:58:13.178  INFO 29116 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 08:58:13.178  INFO 29116 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 08:58:14.717  INFO 29116 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 08:58:14.720  INFO 29116 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 08:58:14.721  INFO 29116 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:01:09.895  INFO 22948 --- [restartedMain] com.lkf.MyblogApplication                : Starting MyblogApplication on DESKTOP-19OB9MV with PID 22948 (started by 李开发 in G:\源码\myblog-master)
+2020-05-02 09:01:09.902 DEBUG 22948 --- [restartedMain] com.lkf.MyblogApplication                : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2020-05-02 09:01:09.903  INFO 22948 --- [restartedMain] com.lkf.MyblogApplication                : The following profiles are active: dev
+2020-05-02 09:01:10.404  INFO 22948 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f6110b0: startup date [Sat May 02 09:01:10 CST 2020]; root of context hierarchy
+2020-05-02 09:01:12.959  WARN 22948 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lkf]' package. Please check your configuration.
+2020-05-02 09:01:13.078  INFO 22948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-02 09:01:13.329  INFO 22948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-02 09:01:13.404  INFO 22948 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.QqRepository.
+2020-05-02 09:01:13.420  INFO 22948 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.BlogRepository.
+2020-05-02 09:01:13.421  INFO 22948 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.MessageRepository.
+2020-05-02 09:01:13.421  INFO 22948 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.TypeRepository.
+2020-05-02 09:01:13.421  INFO 22948 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.CommentRepository.
+2020-05-02 09:01:13.422  INFO 22948 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.GithubRepository.
+2020-05-02 09:01:13.422  INFO 22948 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.UserRepository.
+2020-05-02 09:01:13.422  INFO 22948 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.TagRepository.
+2020-05-02 09:01:13.981  INFO 22948 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$60ffb427] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 09:01:15.398  INFO 22948 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2020-05-02 09:01:15.415  INFO 22948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-02 09:01:15.417  INFO 22948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2020-05-02 09:01:15.781  INFO 22948 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-02 09:01:15.781  INFO 22948 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5377 ms
+2020-05-02 09:01:16.066  INFO 22948 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-02 09:01:16.072  INFO 22948 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-02 09:01:16.072  INFO 22948 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-02 09:01:16.072  INFO 22948 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-02 09:01:16.072  INFO 22948 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-02 09:01:17.412  INFO 22948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-05-02 09:01:17.429  INFO 22948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-02 09:01:17.611  INFO 22948 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-02 09:01:17.614  INFO 22948 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-02 09:01:17.615  INFO 22948 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-05-02 09:01:17.702  INFO 22948 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-02 09:01:18.118  INFO 22948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-02 09:01:19.033  INFO 22948 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2020-05-02 09:01:20.537  INFO 22948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-02 09:01:21.524  INFO 22948 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-02 09:01:24.846  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f6110b0: startup date [Sat May 02 09:01:10 CST 2020]; root of context hierarchy
+2020-05-02 09:01:24.988  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test1/{workId}]}" onto public java.lang.String com.lkf.test.Controller.HelloWorldController.HelloWorld1(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-02 09:01:24.988  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/{workId}]}" onto public java.lang.String com.lkf.test.Controller.HelloWorldController.HelloWorld(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-02 09:01:24.990  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/about],methods=[GET]}" onto public java.lang.String com.lkf.web.AboutShowController.about()
+2020-05-02 09:01:24.992  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 09:01:24.993  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.lkf.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-02 09:01:24.993  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.input(org.springframework.ui.Model)
+2020-05-02 09:01:24.993  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.BlogController.post(com.lkf.pojo.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2020-05-02 09:01:24.994  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.lkf.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-02 09:01:24.994  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/uploadImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.lkf.web.admin.BlogController.demo(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2020-05-02 09:01:24.994  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 09:01:24.995  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 09:01:24.996  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2020-05-02 09:01:24.996  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.LoginController.loginPage()
+2020-05-02 09:01:24.998  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 09:01:24.998  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.input(org.springframework.ui.Model)
+2020-05-02 09:01:24.999  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-02 09:01:24.999  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TagController.post(com.lkf.pojo.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 09:01:24.999  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TagController.editPost(com.lkf.pojo.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 09:01:25.000  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 09:01:25.002  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 09:01:25.002  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-02 09:01:25.002  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.input(org.springframework.ui.Model)
+2020-05-02 09:01:25.002  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TypeController.post(com.lkf.pojo.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 09:01:25.002  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TypeController.editPost(com.lkf.pojo.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 09:01:25.003  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 09:01:25.004  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/archives],methods=[GET]}" onto public java.lang.String com.lkf.web.ArchiveShowController.archives(org.springframework.ui.Model)
+2020-05-02 09:01:25.005  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments/{blogId}],methods=[GET]}" onto public java.lang.String com.lkf.web.CommentController.comments(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 09:01:25.005  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments],methods=[POST]}" onto public java.lang.String com.lkf.web.CommentController.post(com.lkf.pojo.Comment,javax.servlet.http.HttpSession)
+2020-05-02 09:01:25.006  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/callback]}" onto public java.lang.String com.lkf.web.GithubController.callback(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-02 09:01:25.006  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveIp],methods=[POST]}" onto public java.lang.String com.lkf.web.GithubController.post(javax.servlet.http.HttpSession,com.lkf.pojo.Github)
+2020-05-02 09:01:25.006  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githubInfo],methods=[GET]}" onto public java.lang.String com.lkf.web.GithubController.post(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.InterruptedException
+2020-05-02 09:01:25.008  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/oauth],methods=[GET]}" onto public java.lang.String com.lkf.web.GithubController.github(javax.servlet.http.HttpSession)
+2020-05-02 09:01:25.009  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githublogout],methods=[GET]}" onto public java.lang.String com.lkf.web.GithubController.logout(javax.servlet.http.HttpSession)
+2020-05-02 09:01:25.010  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-02 09:01:25.010  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.lkf.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2020-05-02 09:01:25.010  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.index1(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-02 09:01:25.010  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.blog(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 09:01:25.010  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zeroError],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.zeroError()
+2020-05-02 09:01:25.010  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/footer/newblog],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.newblogs(org.springframework.ui.Model)
+2020-05-02 09:01:25.011  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Message],methods=[GET]}" onto public java.lang.String com.lkf.web.MessageController.message(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-02 09:01:25.011  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/POSTMessages],methods=[POST]}" onto public java.lang.String com.lkf.web.MessageController.post(com.lkf.pojo.Message,javax.servlet.http.HttpSession)
+2020-05-02 09:01:25.011  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Messages],methods=[GET]}" onto public java.lang.String com.lkf.web.MessageController.Message_board(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-02 09:01:25.011  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/messageBoard],methods=[GET]}" onto public java.lang.String com.lkf.web.MessageController.messageBoard()
+2020-05-02 09:01:25.012  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqinfo],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2020-05-02 09:01:25.013  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveQQInfo],methods=[POST]}" onto public java.lang.String com.lkf.web.QQController.post(javax.servlet.http.HttpSession,com.lkf.pojo.QQInfo,org.springframework.ui.Model)
+2020-05-02 09:01:25.013  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqlogout],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.logout(javax.servlet.http.HttpSession)
+2020-05-02 09:01:25.013  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/callback],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.qqcallback(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-02 09:01:25.014  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/oauth],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.qq(javax.servlet.http.HttpSession)
+2020-05-02 09:01:25.014  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sendSms]}" onto public java.lang.String com.lkf.web.SmsController.sendSms(java.lang.String)
+2020-05-02 09:01:25.014  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tags/{id}],methods=[GET]}" onto public java.lang.String com.lkf.web.TagShowController.tags(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-02 09:01:25.015  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/types/{id}],methods=[GET]}" onto public java.lang.String com.lkf.web.TypeShowController.types(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-02 09:01:25.015  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadQQImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.lkf.web.UploadController.uploadQQImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-02 09:01:25.015  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadGithubImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.lkf.web.UploadController.uploadGithubImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-02 09:01:25.017  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-02 09:01:25.017  INFO 22948 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-02 09:01:25.089  INFO 22948 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 09:01:25.089  INFO 22948 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 09:01:25.112  INFO 22948 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2020-05-02 09:01:25.144  INFO 22948 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 09:01:26.518  INFO 22948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-02 09:01:26.579  INFO 22948 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-02 09:01:26.590  INFO 22948 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2020-05-02 09:01:26.592  INFO 22948 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2020-05-02 09:01:26.642  INFO 22948 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2020-05-02 09:01:26.811  INFO 22948 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2020-05-02 09:01:26.840  INFO 22948 --- [restartedMain] com.lkf.MyblogApplication                : Started MyblogApplication in 18.426 seconds (JVM running for 24.158)
+2020-05-02 09:01:59.303  INFO 22948 --- [http-nio-80-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1588345759; JSESSIONID=CC832E0035FB2E177195BE1F017BDAAF; Hm_lpvt_6b1eb02bacb648d682681dc81149e144=1588381054] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2020-05-02 09:01:59.339  INFO 22948 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-02 09:01:59.339  INFO 22948 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-02 09:01:59.461  INFO 22948 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 122 ms
+2020-05-02 09:01:59.591  INFO 22948 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:01:59.596  INFO 22948 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:01:59.597  INFO 22948 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : about
+2020-05-02 09:02:04.337  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:02:04.760  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:02:04.760  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:07:23.496  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:07:23.529  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:07:23.530  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : about
+2020-05-02 09:07:27.017  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:07:27.294  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:07:27.294  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:08:09.612  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:08:09.614  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:08:09.614  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : about
+2020-05-02 09:08:11.339  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:08:11.364  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:08:11.365  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:09:06.227  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:09:06.229  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:09:06.229  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : about
+2020-05-02 09:09:08.052  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:09:08.070  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:09:08.071  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:09:59.810  INFO 22948 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:09:59.810  INFO 22948 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:09:59.810  INFO 22948 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : about
+2020-05-02 09:10:02.394  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:10:02.582  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:10:02.583  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:10:15.793  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:10:16.464  WARN 22948 --- [http-nio-80-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-02 09:10:16.542  WARN 22948 --- [http-nio-80-exec-5] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-02 09:10:16.563  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:10:16.563  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 09:10:17.941  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:10:17.944  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:10:17.944  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:11:30.077  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:11:30.271  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:11:30.272  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 09:11:31.528  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:11:31.535  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:11:31.537  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:17:41.498  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:17:41.672  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:17:41.673  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:24:54.747  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:24:54.756  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:24:54.757  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:25:03.947  INFO 22948 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:25:03.953  INFO 22948 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:25:03.953  INFO 22948 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:25:09.265  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:25:09.267  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:25:09.268  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:32:12.647  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:32:12.872  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:32:12.873  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 09:32:14.595  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:32:14.602  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:32:14.602  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:35:27.550  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:35:27.937  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:35:27.938  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 09:35:29.697  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:35:29.743  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:35:29.743  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:35:44.191  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:35:44.317  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:35:44.317  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 09:35:46.569  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:35:46.585  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:35:46.589  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:35:55.162  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:35:55.180  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:35:55.181  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 09:35:56.752  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:35:56.762  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:35:56.762  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:36:09.308  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:36:09.436  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:36:09.436  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 09:36:11.800  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:36:11.802  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:36:11.803  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:51:55.595  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:51:56.140  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:51:56.140  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 09:51:57.722  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:51:57.728  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:51:57.729  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:53:11.115  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:53:11.810  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:53:11.810  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 09:53:14.119  INFO 22948 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:53:14.136  INFO 22948 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:53:14.136  INFO 22948 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:54:51.428  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:54:51.769  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:54:51.769  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : types
+2020-05-02 09:54:53.307  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:54:53.315  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:54:53.316  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 09:55:00.897  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:55:00.928  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:55:00.928  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : types
+2020-05-02 09:55:02.256  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 09:55:02.259  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 09:55:02.259  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:04:44.596  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:04:45.037  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:04:45.039  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:04:50.500  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:04:50.712  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:04:50.713  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:05:30.715  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:05:31.382  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:05:31.384  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:05:37.452  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:05:37.662  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:05:37.665  INFO 22948 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:05:40.237  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:05:40.245  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:05:40.247  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:06:01.079  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:06:01.257  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:06:01.257  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : types
+2020-05-02 10:06:02.592  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:06:02.602  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:06:02.604  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:06:24.367  INFO 22948 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:06:24.383  INFO 22948 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:06:24.385  INFO 22948 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:06:27.503  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:06:27.573  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:06:27.573  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:07:05.120  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:07:05.227  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:07:05.228  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:07:07.944  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:07:07.947  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:07:07.947  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:07:18.164  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:07:18.233  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:07:18.234  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:07:20.095  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:07:20.117  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:07:20.121  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:09:52.396  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:09:53.330  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:09:53.331  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:09:57.067  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:09:57.072  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:09:57.072  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:18:16.275  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:18:18.046  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:18:18.047  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:18:20.553  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:18:20.573  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:18:20.574  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:20:11.510  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:20:11.709  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:20:11.709  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:20:14.220  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:20:14.239  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:20:14.240  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:21:48.628  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:21:49.022  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:21:49.023  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:21:52.969  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:21:53.006  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:21:53.006  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:31:41.023  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:31:42.725  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:31:42.727  INFO 22948 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:31:47.830  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:31:47.871  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:31:47.871  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:33:11.663  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:33:11.923  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:33:11.923  INFO 22948 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:33:13.676  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:33:13.687  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:33:13.687  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:38:33.027  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:38:33.503  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:38:33.504  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:38:36.256  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:38:36.262  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:38:36.263  INFO 22948 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:39:18.346  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:39:18.436  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:39:18.436  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:39:20.927  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:39:20.940  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:39:20.940  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:39:40.972  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:39:41.040  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:39:41.040  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:39:42.442  INFO 22948 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:39:42.454  INFO 22948 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:39:42.454  INFO 22948 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:43:02.874  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:43:03.205  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:43:03.207  INFO 22948 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:43:05.891  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:43:05.930  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:43:05.931  INFO 22948 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:43:41.196  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:43:41.261  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:43:41.261  INFO 22948 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:43:42.825  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:43:42.832  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:43:42.832  INFO 22948 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:46:05.469  INFO 23988 --- [restartedMain] com.lkf.MyblogApplication                : Starting MyblogApplication on DESKTOP-19OB9MV with PID 23988 (started by 李开发 in G:\源码\myblog-master)
+2020-05-02 10:46:05.485 DEBUG 23988 --- [restartedMain] com.lkf.MyblogApplication                : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2020-05-02 10:46:05.486  INFO 23988 --- [restartedMain] com.lkf.MyblogApplication                : The following profiles are active: dev
+2020-05-02 10:46:06.407  INFO 23988 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a74843b: startup date [Sat May 02 10:46:06 CST 2020]; root of context hierarchy
+2020-05-02 10:46:11.467  WARN 23988 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lkf]' package. Please check your configuration.
+2020-05-02 10:46:11.665  INFO 23988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-02 10:46:11.966  INFO 23988 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-02 10:46:12.082  INFO 23988 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.QqRepository.
+2020-05-02 10:46:12.112  INFO 23988 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.BlogRepository.
+2020-05-02 10:46:12.113  INFO 23988 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.MessageRepository.
+2020-05-02 10:46:12.114  INFO 23988 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.TypeRepository.
+2020-05-02 10:46:12.115  INFO 23988 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.CommentRepository.
+2020-05-02 10:46:12.115  INFO 23988 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.GithubRepository.
+2020-05-02 10:46:12.116  INFO 23988 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.UserRepository.
+2020-05-02 10:46:12.116  INFO 23988 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.TagRepository.
+2020-05-02 10:46:12.926  INFO 23988 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$40176566] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 10:46:14.969  INFO 23988 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2020-05-02 10:46:14.987  INFO 23988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-02 10:46:14.988  INFO 23988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2020-05-02 10:46:15.376  INFO 23988 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-02 10:46:15.377  INFO 23988 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8971 ms
+2020-05-02 10:46:15.699  INFO 23988 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-02 10:46:15.705  INFO 23988 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-02 10:46:15.706  INFO 23988 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-02 10:46:15.706  INFO 23988 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-02 10:46:15.706  INFO 23988 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-02 10:46:17.205  INFO 23988 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-05-02 10:46:17.223  INFO 23988 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-02 10:46:17.425  INFO 23988 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-02 10:46:17.427  INFO 23988 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-02 10:46:17.427  INFO 23988 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-05-02 10:46:17.559  INFO 23988 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-02 10:46:18.435  INFO 23988 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-02 10:46:19.364  INFO 23988 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2020-05-02 10:46:21.045  INFO 23988 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-02 10:46:21.895  INFO 23988 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-02 10:46:25.430  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a74843b: startup date [Sat May 02 10:46:06 CST 2020]; root of context hierarchy
+2020-05-02 10:46:25.531  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test1/{workId}]}" onto public java.lang.String com.lkf.test.Controller.HelloWorldController.HelloWorld1(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-02 10:46:25.532  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/{workId}]}" onto public java.lang.String com.lkf.test.Controller.HelloWorldController.HelloWorld(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-02 10:46:25.533  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/about],methods=[GET]}" onto public java.lang.String com.lkf.web.AboutShowController.about()
+2020-05-02 10:46:25.535  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 10:46:25.536  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.lkf.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-02 10:46:25.536  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.input(org.springframework.ui.Model)
+2020-05-02 10:46:25.536  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.BlogController.post(com.lkf.pojo.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2020-05-02 10:46:25.536  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.lkf.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-02 10:46:25.537  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 10:46:25.537  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/uploadImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.lkf.web.admin.BlogController.demo(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2020-05-02 10:46:25.538  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.LoginController.loginPage()
+2020-05-02 10:46:25.538  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2020-05-02 10:46:25.539  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 10:46:25.540  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 10:46:25.541  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.input(org.springframework.ui.Model)
+2020-05-02 10:46:25.541  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TagController.post(com.lkf.pojo.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 10:46:25.541  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-02 10:46:25.541  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TagController.editPost(com.lkf.pojo.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 10:46:25.542  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 10:46:25.544  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 10:46:25.544  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-02 10:46:25.545  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.input(org.springframework.ui.Model)
+2020-05-02 10:46:25.545  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TypeController.post(com.lkf.pojo.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 10:46:25.545  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TypeController.editPost(com.lkf.pojo.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 10:46:25.545  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 10:46:25.547  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/archives],methods=[GET]}" onto public java.lang.String com.lkf.web.ArchiveShowController.archives(org.springframework.ui.Model)
+2020-05-02 10:46:25.548  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments],methods=[POST]}" onto public java.lang.String com.lkf.web.CommentController.post(com.lkf.pojo.Comment,javax.servlet.http.HttpSession)
+2020-05-02 10:46:25.548  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments/{blogId}],methods=[GET]}" onto public java.lang.String com.lkf.web.CommentController.comments(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 10:46:25.549  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveIp],methods=[POST]}" onto public java.lang.String com.lkf.web.GithubController.post(javax.servlet.http.HttpSession,com.lkf.pojo.Github)
+2020-05-02 10:46:25.549  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githubInfo],methods=[GET]}" onto public java.lang.String com.lkf.web.GithubController.post(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.InterruptedException
+2020-05-02 10:46:25.549  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/callback]}" onto public java.lang.String com.lkf.web.GithubController.callback(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-02 10:46:25.549  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githublogout],methods=[GET]}" onto public java.lang.String com.lkf.web.GithubController.logout(javax.servlet.http.HttpSession)
+2020-05-02 10:46:25.550  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/oauth],methods=[GET]}" onto public java.lang.String com.lkf.web.GithubController.github(javax.servlet.http.HttpSession)
+2020-05-02 10:46:25.551  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-02 10:46:25.551  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.lkf.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2020-05-02 10:46:25.551  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.index1(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-02 10:46:25.551  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.blog(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 10:46:25.551  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zeroError],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.zeroError()
+2020-05-02 10:46:25.551  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/footer/newblog],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.newblogs(org.springframework.ui.Model)
+2020-05-02 10:46:25.552  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Message],methods=[GET]}" onto public java.lang.String com.lkf.web.MessageController.message(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-02 10:46:25.552  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/POSTMessages],methods=[POST]}" onto public java.lang.String com.lkf.web.MessageController.post(com.lkf.pojo.Message,javax.servlet.http.HttpSession)
+2020-05-02 10:46:25.552  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/messageBoard],methods=[GET]}" onto public java.lang.String com.lkf.web.MessageController.messageBoard()
+2020-05-02 10:46:25.552  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Messages],methods=[GET]}" onto public java.lang.String com.lkf.web.MessageController.Message_board(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-02 10:46:25.553  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveQQInfo],methods=[POST]}" onto public java.lang.String com.lkf.web.QQController.post(javax.servlet.http.HttpSession,com.lkf.pojo.QQInfo,org.springframework.ui.Model)
+2020-05-02 10:46:25.553  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqinfo],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2020-05-02 10:46:25.554  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/callback],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.qqcallback(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-02 10:46:25.554  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/oauth],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.qq(javax.servlet.http.HttpSession)
+2020-05-02 10:46:25.554  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqlogout],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.logout(javax.servlet.http.HttpSession)
+2020-05-02 10:46:25.554  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sendSms]}" onto public java.lang.String com.lkf.web.SmsController.sendSms(java.lang.String)
+2020-05-02 10:46:25.554  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tags/{id}],methods=[GET]}" onto public java.lang.String com.lkf.web.TagShowController.tags(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-02 10:46:25.555  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/types/{id}],methods=[GET]}" onto public java.lang.String com.lkf.web.TypeShowController.types(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-02 10:46:25.555  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadQQImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.lkf.web.UploadController.uploadQQImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-02 10:46:25.555  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadGithubImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.lkf.web.UploadController.uploadGithubImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-02 10:46:25.557  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-02 10:46:25.557  INFO 23988 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-02 10:46:25.606  INFO 23988 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 10:46:25.606  INFO 23988 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 10:46:25.625  INFO 23988 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2020-05-02 10:46:25.682  INFO 23988 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 10:46:27.136  INFO 23988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-02 10:46:27.182  INFO 23988 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-02 10:46:27.191  INFO 23988 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2020-05-02 10:46:27.194  INFO 23988 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2020-05-02 10:46:27.218  INFO 23988 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2020-05-02 10:46:27.673  INFO 23988 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2020-05-02 10:46:27.687  INFO 23988 --- [restartedMain] com.lkf.MyblogApplication                : Started MyblogApplication in 24.896 seconds (JVM running for 32.867)
+2020-05-02 10:46:39.175  INFO 23988 --- [http-nio-80-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1588345759; JSESSIONID=7807724FC59207A1404F59EB948CCBB8; Hm_lpvt_6b1eb02bacb648d682681dc81149e144=1588387446] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2020-05-02 10:46:39.186  INFO 23988 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-02 10:46:39.186  INFO 23988 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-02 10:46:39.258  INFO 23988 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 72 ms
+2020-05-02 10:46:39.402  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:46:39.781  WARN 23988 --- [http-nio-80-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-02 10:46:39.862  WARN 23988 --- [http-nio-80-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-02 10:46:39.869  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:46:39.869  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:46:42.351  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:46:42.357  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:46:42.358  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:47:01.871  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:47:01.958  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:47:01.959  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : types
+2020-05-02 10:47:03.501  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:47:03.502  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:47:03.503  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:48:47.510  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:48:47.625  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:48:47.625  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:48:49.397  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:48:49.422  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:48:49.422  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:52:10.230  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:52:10.554  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:52:10.555  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:52:27.112  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:52:27.133  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:52:27.133  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:52:28.752  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:52:28.768  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:52:28.768  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:52:49.572  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:52:49.730  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:52:49.730  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:52:51.847  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:52:51.856  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:52:51.856  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:54:32.522  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:54:32.645  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:54:32.645  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:54:35.033  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:54:35.050  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:54:35.050  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:55:21.189  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:55:21.264  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:55:21.264  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:55:22.764  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:55:22.768  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:55:22.768  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:55:35.196  INFO 23988 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:55:35.263  INFO 23988 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:55:35.267  INFO 23988 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : types
+2020-05-02 10:55:37.015  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:55:37.020  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:55:37.020  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:56:01.680  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:56:01.683  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:56:01.683  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:57:18.575  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:57:18.734  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:57:18.734  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:57:22.431  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:57:22.448  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:57:22.448  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:57:23.877  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:57:23.924  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:57:23.924  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:59:47.213  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:59:47.237  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:59:47.238  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:59:48.871  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:59:48.904  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:59:48.904  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 10:59:53.642  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:59:53.714  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:59:53.714  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 10:59:54.939  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 10:59:54.947  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 10:59:54.948  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:00:05.064  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:00:05.187  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:00:05.188  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:00:07.215  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:00:07.221  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:00:07.221  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:12:17.641  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:12:17.700  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:12:17.701  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:12:19.924  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:12:19.931  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:12:19.931  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:12:26.319  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:12:26.326  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:12:26.327  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:12:38.847  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:12:38.881  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:12:38.881  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:12:41.048  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:12:41.059  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:12:41.059  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:12:57.787  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:12:58.543  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:12:58.544  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : blog
+2020-05-02 11:13:00.757  INFO 23988 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:13:00.795  INFO 23988 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:13:00.795  INFO 23988 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:13:25.760  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:13:25.901  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:13:25.901  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : blog
+2020-05-02 11:13:27.480  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:13:27.518  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:13:27.518  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:14:26.064  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:14:26.133  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:14:26.133  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : about
+2020-05-02 11:14:27.738  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:14:27.982  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:14:27.983  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:14:31.362  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:14:31.536  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:14:31.536  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : message_board
+2020-05-02 11:14:33.045  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:14:33.051  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:14:33.051  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:14:49.102  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:14:49.350  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:14:49.350  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : redirect:/Message
+2020-05-02 11:14:49.399  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:14:49.412  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:14:49.413  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : message_board :: messageList
+2020-05-02 11:14:49.489  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:14:49.499  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:14:49.499  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : message_board :: messageList
+2020-05-02 11:14:56.301  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:14:56.462  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:14:56.463  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:14:58.819  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:14:58.844  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:14:58.844  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:15:01.333  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:15:01.439  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:15:01.440  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : blog
+2020-05-02 11:15:03.605  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:15:03.613  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:15:03.614  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:15:50.378  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:15:50.497  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:15:50.505  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : blog
+2020-05-02 11:15:52.134  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:15:52.144  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:15:52.145  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:15:52.789  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:15:53.238  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:15:53.239  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : blog :: commentList
+2020-05-02 11:19:35.785  INFO 23988 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:19:36.619  INFO 23988 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:19:36.621  INFO 23988 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:19:45.554  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:19:45.595  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:19:45.595  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:20:39.467  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:20:40.042  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:20:40.042  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:20:43.072  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:20:43.104  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:20:43.104  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:21:27.337  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:21:27.401  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:21:27.401  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:21:29.162  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:21:29.172  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:21:29.172  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:22:25.718  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:22:26.233  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:22:26.236  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:22:29.297  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:22:37.559  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:22:37.559  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:23:37.257  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:23:37.709  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:23:37.709  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:23:40.248  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:23:40.257  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:23:40.258  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:34:23.964  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:34:24.713  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:34:24.715  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:34:26.156  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:34:26.189  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:34:26.190  INFO 23988 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:34:29.417  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:34:29.431  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:34:29.432  INFO 23988 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:34:50.104  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:34:50.326  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:34:50.326  INFO 23988 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:34:52.319  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:34:52.324  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:34:52.324  INFO 23988 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:36:54.927  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:36:55.564  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:36:55.566  INFO 23988 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 11:36:58.248  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:36:58.258  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:36:58.259  INFO 23988 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:37:29.520  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:37:29.524  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:37:29.524  INFO 23988 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:37:33.976  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:37:34.009  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:37:34.009  INFO 23988 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:37:38.715  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:37:38.733  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:37:38.734  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 11:37:42.704  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 11:37:42.722  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 11:37:42.722  INFO 23988 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:04:54.251  INFO 5208 --- [restartedMain] com.lkf.MyblogApplication                : Starting MyblogApplication on DESKTOP-19OB9MV with PID 5208 (started by 李开发 in G:\源码\myblog-master)
+2020-05-02 12:04:54.258 DEBUG 5208 --- [restartedMain] com.lkf.MyblogApplication                : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2020-05-02 12:04:54.259  INFO 5208 --- [restartedMain] com.lkf.MyblogApplication                : The following profiles are active: dev
+2020-05-02 12:04:54.724  INFO 5208 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4292999: startup date [Sat May 02 12:04:54 CST 2020]; root of context hierarchy
+2020-05-02 12:04:58.096  WARN 5208 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lkf]' package. Please check your configuration.
+2020-05-02 12:04:58.273  INFO 5208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-02 12:04:58.680  INFO 5208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-02 12:04:58.786  INFO 5208 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.QqRepository.
+2020-05-02 12:04:58.788  INFO 5208 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.BlogRepository.
+2020-05-02 12:04:58.788  INFO 5208 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.MessageRepository.
+2020-05-02 12:04:58.789  INFO 5208 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.TypeRepository.
+2020-05-02 12:04:58.789  INFO 5208 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.CommentRepository.
+2020-05-02 12:04:58.790  INFO 5208 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.GithubRepository.
+2020-05-02 12:04:58.791  INFO 5208 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.UserRepository.
+2020-05-02 12:04:58.792  INFO 5208 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lkf.dao.TagRepository.
+2020-05-02 12:04:59.821  INFO 5208 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f26daaa2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 12:05:01.660  INFO 5208 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2020-05-02 12:05:01.680  INFO 5208 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-02 12:05:01.681  INFO 5208 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2020-05-02 12:05:02.322  INFO 5208 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-02 12:05:02.324  INFO 5208 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7600 ms
+2020-05-02 12:05:03.062  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-02 12:05:03.067  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-02 12:05:03.077  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-02 12:05:03.078  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-02 12:05:03.078  INFO 5208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-02 12:05:06.356  INFO 5208 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-05-02 12:05:06.384  INFO 5208 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-02 12:05:06.519  INFO 5208 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2020-05-02 12:05:06.521  INFO 5208 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-05-02 12:05:06.522  INFO 5208 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-05-02 12:05:06.615  INFO 5208 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-05-02 12:05:07.620  INFO 5208 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-02 12:05:08.270  INFO 5208 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2020-05-02 12:05:09.957  INFO 5208 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-02 12:05:10.815  INFO 5208 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-02 12:05:13.972  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4292999: startup date [Sat May 02 12:04:54 CST 2020]; root of context hierarchy
+2020-05-02 12:05:14.059  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test1/{workId}]}" onto public java.lang.String com.lkf.test.Controller.HelloWorldController.HelloWorld1(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-02 12:05:14.061  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test/{workId}]}" onto public java.lang.String com.lkf.test.Controller.HelloWorldController.HelloWorld(java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+2020-05-02 12:05:14.062  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/about],methods=[GET]}" onto public java.lang.String com.lkf.web.AboutShowController.about()
+2020-05-02 12:05:14.064  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 12:05:14.065  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.lkf.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-02 12:05:14.065  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.lkf.vo.BlogQuery,org.springframework.ui.Model)
+2020-05-02 12:05:14.065  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 12:05:14.065  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/uploadImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.lkf.web.admin.BlogController.demo(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2020-05-02 12:05:14.065  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.BlogController.input(org.springframework.ui.Model)
+2020-05-02 12:05:14.066  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.BlogController.post(com.lkf.pojo.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2020-05-02 12:05:14.066  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.LoginController.loginPage()
+2020-05-02 12:05:14.067  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2020-05-02 12:05:14.067  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 12:05:14.068  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 12:05:14.069  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 12:05:14.069  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TagController.editPost(com.lkf.pojo.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 12:05:14.069  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.input(org.springframework.ui.Model)
+2020-05-02 12:05:14.069  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-02 12:05:14.070  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TagController.post(com.lkf.pojo.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 12:05:14.071  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 12:05:14.071  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 12:05:14.071  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TypeController.editPost(com.lkf.pojo.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 12:05:14.071  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2020-05-02 12:05:14.072  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.lkf.web.admin.TypeController.input(org.springframework.ui.Model)
+2020-05-02 12:05:14.072  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.lkf.web.admin.TypeController.post(com.lkf.pojo.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2020-05-02 12:05:14.074  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/archives],methods=[GET]}" onto public java.lang.String com.lkf.web.ArchiveShowController.archives(org.springframework.ui.Model)
+2020-05-02 12:05:14.075  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments/{blogId}],methods=[GET]}" onto public java.lang.String com.lkf.web.CommentController.comments(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 12:05:14.075  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/comments],methods=[POST]}" onto public java.lang.String com.lkf.web.CommentController.post(com.lkf.pojo.Comment,javax.servlet.http.HttpSession)
+2020-05-02 12:05:14.075  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githublogout],methods=[GET]}" onto public java.lang.String com.lkf.web.GithubController.logout(javax.servlet.http.HttpSession)
+2020-05-02 12:05:14.076  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/oauth],methods=[GET]}" onto public java.lang.String com.lkf.web.GithubController.github(javax.servlet.http.HttpSession)
+2020-05-02 12:05:14.076  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/github/callback]}" onto public java.lang.String com.lkf.web.GithubController.callback(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-02 12:05:14.076  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/githubInfo],methods=[GET]}" onto public java.lang.String com.lkf.web.GithubController.post(javax.servlet.http.HttpSession,org.springframework.ui.Model) throws java.lang.InterruptedException
+2020-05-02 12:05:14.076  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveIp],methods=[POST]}" onto public java.lang.String com.lkf.web.GithubController.post(javax.servlet.http.HttpSession,com.lkf.pojo.Github)
+2020-05-02 12:05:14.077  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-02 12:05:14.077  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.lkf.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2020-05-02 12:05:14.077  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.index1(org.springframework.data.domain.Pageable,org.springframework.ui.Model,java.lang.String)
+2020-05-02 12:05:14.078  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/footer/newblog],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.newblogs(org.springframework.ui.Model)
+2020-05-02 12:05:14.078  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/zeroError],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.zeroError()
+2020-05-02 12:05:14.078  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.lkf.web.IndexController.blog(java.lang.Long,org.springframework.ui.Model)
+2020-05-02 12:05:14.078  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Message],methods=[GET]}" onto public java.lang.String com.lkf.web.MessageController.message(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-02 12:05:14.078  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/messageBoard],methods=[GET]}" onto public java.lang.String com.lkf.web.MessageController.messageBoard()
+2020-05-02 12:05:14.081  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/Messages],methods=[GET]}" onto public java.lang.String com.lkf.web.MessageController.Message_board(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Boolean,org.springframework.ui.Model)
+2020-05-02 12:05:14.081  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/POSTMessages],methods=[POST]}" onto public java.lang.String com.lkf.web.MessageController.post(com.lkf.pojo.Message,javax.servlet.http.HttpSession)
+2020-05-02 12:05:14.082  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqlogout],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.logout(javax.servlet.http.HttpSession)
+2020-05-02 12:05:14.083  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/callback],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.qqcallback(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2020-05-02 12:05:14.083  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qq/oauth],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.qq(javax.servlet.http.HttpSession)
+2020-05-02 12:05:14.083  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/qqinfo],methods=[GET]}" onto public java.lang.String com.lkf.web.QQController.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpSession,org.springframework.ui.Model)
+2020-05-02 12:05:14.083  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/saveQQInfo],methods=[POST]}" onto public java.lang.String com.lkf.web.QQController.post(javax.servlet.http.HttpSession,com.lkf.pojo.QQInfo,org.springframework.ui.Model)
+2020-05-02 12:05:14.083  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sendSms]}" onto public java.lang.String com.lkf.web.SmsController.sendSms(java.lang.String)
+2020-05-02 12:05:14.083  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tags/{id}],methods=[GET]}" onto public java.lang.String com.lkf.web.TagShowController.tags(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-02 12:05:14.084  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/types/{id}],methods=[GET]}" onto public java.lang.String com.lkf.web.TypeShowController.types(org.springframework.data.domain.Pageable,java.lang.Long,org.springframework.ui.Model)
+2020-05-02 12:05:14.085  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadQQImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.lkf.web.UploadController.uploadQQImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-02 12:05:14.085  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/upload/uploadGithubImg],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.lkf.web.UploadController.uploadGithubImg(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpSession) throws java.io.IOException
+2020-05-02 12:05:14.087  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-02 12:05:14.087  INFO 5208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-02 12:05:14.160  INFO 5208 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 12:05:14.160  INFO 5208 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 12:05:14.193  INFO 5208 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2020-05-02 12:05:14.241  INFO 5208 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 12:05:15.634  INFO 5208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-05-02 12:05:15.705  INFO 5208 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-02 12:05:15.717  INFO 5208 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2020-05-02 12:05:15.722  INFO 5208 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2020-05-02 12:05:15.835  INFO 5208 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2020-05-02 12:05:15.969  INFO 5208 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2020-05-02 12:05:16.009  INFO 5208 --- [restartedMain] com.lkf.MyblogApplication                : Started MyblogApplication in 23.636 seconds (JVM running for 34.5)
+2020-05-02 12:10:38.690  INFO 5208 --- [http-nio-80-exec-5] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1588345759; JSESSIONID=EA8D862D6E8C95668B427072AF3FD12D; Hm_lpvt_6b1eb02bacb648d682681dc81149e144=1588390663] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2020-05-02 12:10:38.735  INFO 5208 --- [http-nio-80-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-02 12:10:38.735  INFO 5208 --- [http-nio-80-exec-5] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-02 12:10:38.829  INFO 5208 --- [http-nio-80-exec-5] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 94 ms
+2020-05-02 12:18:20.361  INFO 5208 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:18:20.459  INFO 5208 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:18:20.460  INFO 5208 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:18:32.046  INFO 5208 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:18:32.053  INFO 5208 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:18:32.054  INFO 5208 --- [http-nio-80-exec-6] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:18:37.471  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:18:37.480  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:18:37.480  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:20:04.387  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:20:05.246  WARN 5208 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-02 12:20:05.295  WARN 5208 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2020-05-02 12:20:05.311  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:20:05.311  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 12:23:55.830 ERROR 5208 --- [http-nio-80-exec-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-80-exec-7] Exception processing template "admin/blogs": An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:667)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1087)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1061)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]" - line 21, col 14)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]" - line 21, col 14)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:303)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:562)
+	at org.thymeleaf.standard.expression.FragmentExpression.executeFragmentExpression(FragmentExpression.java:392)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:87)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpressionParameters(FragmentExpression.java:503)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:445)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:347)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 54 common frames omitted
+Caused by: org.attoparser.ParseException: (Line = 21, Column = 14) Malformed markup: Attribute "class" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 79 common frames omitted
+
+2020-05-02 12:23:55.939 ERROR 5208 --- [http-nio-80-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")] with root cause
+
+org.attoparser.ParseException: (Line = 21, Column = 14) Malformed markup: Attribute "class" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:303)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:562)
+	at org.thymeleaf.standard.expression.FragmentExpression.executeFragmentExpression(FragmentExpression.java:392)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:87)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpressionParameters(FragmentExpression.java:503)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:445)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:347)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:667)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1087)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1061)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-05-02 12:24:31.015 ERROR 5208 --- [http-nio-80-exec-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-80-exec-4] Exception processing template "admin/blogs": An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:667)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1087)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1061)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]" - line 21, col 14)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]" - line 21, col 14)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:303)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:562)
+	at org.thymeleaf.standard.expression.FragmentExpression.executeFragmentExpression(FragmentExpression.java:392)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:87)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpressionParameters(FragmentExpression.java:503)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:445)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:347)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 54 common frames omitted
+Caused by: org.attoparser.ParseException: (Line = 21, Column = 14) Malformed markup: Attribute "class" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 79 common frames omitted
+
+2020-05-02 12:24:31.032 ERROR 5208 --- [http-nio-80-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/admin/blogs.html]")] with root cause
+
+org.attoparser.ParseException: (Line = 21, Column = 14) Malformed markup: Attribute "class" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549)
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:300)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:303)
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:562)
+	at org.thymeleaf.standard.expression.FragmentExpression.executeFragmentExpression(FragmentExpression.java:392)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:87)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpressionParameters(FragmentExpression.java:503)
+	at org.thymeleaf.standard.expression.FragmentExpression.createExecutedFragmentExpression(FragmentExpression.java:445)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:347)
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:667)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1087)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1061)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-05-02 12:24:48.098  INFO 5208 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:24:48.126  INFO 5208 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:24:48.126  INFO 5208 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:24:49.944  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:24:49.966  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:24:49.967  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:26:07.685  INFO 5208 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:26:07.969  INFO 5208 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:26:07.969  INFO 5208 --- [http-nio-80-exec-10] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 12:26:11.209  INFO 5208 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:26:11.236  INFO 5208 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:26:11.237  INFO 5208 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:27:58.638  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:27:58.739  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:27:58.739  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 12:28:00.167  INFO 5208 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:28:00.178  INFO 5208 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:28:00.179  INFO 5208 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:29:02.825  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:29:02.857  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:29:02.858  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:29:03.777  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:29:03.804  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:29:03.804  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 12:29:05.945  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:29:06.000  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:29:06.001  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 12:29:12.737  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:29:12.766  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:29:12.766  INFO 5208 --- [http-nio-80-exec-4] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 12:29:14.296  INFO 5208 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 12:29:14.309  INFO 5208 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 12:29:14.309  INFO 5208 --- [http-nio-80-exec-8] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 13:06:13.958  INFO 5208 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 13:06:14.165  INFO 5208 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 13:06:14.167  INFO 5208 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 13:06:14.883  INFO 5208 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 13:06:15.050  INFO 5208 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 13:06:15.050  INFO 5208 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 13:06:16.969  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 13:06:17.116  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 13:06:17.117  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 15:29:21.284  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 15:29:22.499  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 15:29:22.500  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : archives
+2020-05-02 15:29:24.901  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 15:29:24.924  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 15:29:24.924  INFO 5208 --- [http-nio-80-exec-1] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 15:30:07.498  INFO 5208 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 15:30:07.615  INFO 5208 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 15:30:07.615  INFO 5208 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : archives
+2020-05-02 15:30:09.054  INFO 5208 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 15:30:09.076  INFO 5208 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 15:30:09.077  INFO 5208 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 15:30:17.167  INFO 5208 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 15:30:18.284  INFO 5208 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 15:30:18.286  INFO 5208 --- [http-nio-80-exec-5] com.lkf.aspect.LogAspect                 : Result : blog
+2020-05-02 15:30:20.232  INFO 5208 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 15:30:20.246  INFO 5208 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 15:30:20.247  INFO 5208 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 15:30:58.379  INFO 5208 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 15:30:58.479  INFO 5208 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 15:30:58.479  INFO 5208 --- [http-nio-80-exec-2] com.lkf.aspect.LogAspect                 : Result : blog
+2020-05-02 15:31:00.246  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 15:31:00.258  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 15:31:00.259  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-05-02 15:31:01.118  INFO 5208 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 15:31:01.466  INFO 5208 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 15:31:01.467  INFO 5208 --- [http-nio-80-exec-9] com.lkf.aspect.LogAspect                 : Result : blog :: commentList
+2020-05-02 19:07:24.558  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 19:07:25.065  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 19:07:25.066  INFO 5208 --- [http-nio-80-exec-7] com.lkf.aspect.LogAspect                 : Result : index
+2020-05-02 19:07:28.661  INFO 5208 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doBefore------
+2020-05-02 19:07:28.673  INFO 5208 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : ------doAfter------
+2020-05-02 19:07:28.673  INFO 5208 --- [http-nio-80-exec-3] com.lkf.aspect.LogAspect                 : Result : _fragments :: newblogList
