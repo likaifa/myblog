@@ -51,29 +51,46 @@
       </div>
 
       <div class="right m-item m-mobile-hide item" >
-        <div th:classappend="${session.loginStatus}?'myHideStyle':'myShowStyle'">
-          <a href="#"  th:href="@{/qq/oauth}" style="width:80px; text-align:center"><i class="mini qq icon"></i>QQ登录&nbsp;|</a>
-          <a href="#"  th:href="@{/github/oauth}" style="width:80px; text-align:center"><i class="github icon"></i>github登录&nbsp;|</a>
-          <a href="#" target="_blank" th:href="@{/admin}" style="width:80px; text-align:center"><i class="mini user secret icon"></i>&nbsp;后台管理</a>
+        <!--<div th:classappend="${session.user.type}?0:1">-->
+        <div th:if="${session.user==null}">
+
+          <!--<a href="#"  th:href="@{/qq/oauth}" style="width:80px; text-align:center" th:if="${session.user.type  != 1}"><i class="mini qq icon"></i>QQ登录&nbsp;|</a>-->
+          <!--<a href="#"  th:href="@{/github/oauth}" style="width:80px; text-align:center" th:if="${session.loginType != 1}"><i class="github icon"></i>github登录&nbsp;|</a>-->
+          <a href="#" target="_blank" th:href="@{/admin}" style="width:80px; text-align:center" th:if="${session.loginType != 1}"><i class="mini user secret icon"></i>&nbsp;个人登录</a>
+          <!--<a href="#"  th:href="@{/qq/oauth}" style="width:80px; text-align:center"><i class="mini qq icon"></i>QQ登录&nbsp;|</a>-->
+          <!--<a href="#"  th:href="@{/github/oauth}" style="width:80px; text-align:center"><i class="github icon"></i>github登录&nbsp;|</a>-->
+          <!--<a href="#" target="_blank" th:href="@{/admin}" style="width:80px; text-align:center"><i class="mini user secret icon"></i>&nbsp;后台管理</a>-->
+
         </div>
 
-        <div class="ui dropdown item" th:classappend="${session.loginStatus}?'myShowStyle':'myHideStyle'">
+        <!--<div class="ui dropdown item" th:classappend="${session.loginStatus}?'myShowStyle':'myHideStyle'">-->
+          <!--<div class="text">-->
+            <!--<img class="ui avatar image" th:src="${session.avatar}">-->
+            <!--<span th:text="${session.nickname}">lkf</span>-->
+          <!--</div>-->
+          <!--<i class="dropdown icon"></i>-->
+          <!--<div class="menu" th:if="${session.loginType == 1}">-->
+            <!--<a href="#" th:href="@{/qqinfo}" class="item">QQ资料</a>-->
+            <!--<a href="#" th:href="@{/qqlogout}" class="item">退出登录</a>-->
+          <!--</div>-->
+          <!--<div class="menu" th:if="${session.loginType == 2}">-->
+            <!--<a href="#" th:href="@{/githubInfo}" class="item">Github资料</a>-->
+            <!--<a href="#" th:href="@{/githublogout}" class="item">退出登录</a>-->
+          <!--</div>-->
+        <!--</div>-->
+      </div>
+      <div class="right m-item m-mobile-hide menu" th:if="${session.user!= null}">
+        <div class="ui dropdown  item">
           <div class="text">
-            <img class="ui avatar image" th:src="${session.avatar}">
-            <span th:text="${session.nickname}">lkf</span>
+            <img class="ui avatar image" src="https://unsplash.it/100/100?image=1005" th:src="@{${session.user.avatar}}">
+            <span th:text="${session.user.nickname}">lkf</span>
           </div>
           <i class="dropdown icon"></i>
-          <div class="menu" th:if="${session.loginType == 1}">
-            <a href="#" th:href="@{/qqinfo}" class="item">QQ资料</a>
-            <a href="#" th:href="@{/qqlogout}" class="item">退出登录</a>
-          </div>
-          <div class="menu" th:if="${session.loginType == 2}">
-            <a href="#" th:href="@{/githubInfo}" class="item">Github资料</a>
-            <a href="#" th:href="@{/githublogout}" class="item">退出登录</a>
+          <div class="menu">
+            <a href="#" th:href="@{/admin/logout}" class="item">注销</a>
           </div>
         </div>
       </div>
-
 
     </div>
 

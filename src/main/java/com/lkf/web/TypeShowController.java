@@ -21,7 +21,7 @@ import java.util.List;
  * @describe: 博客类型展示
  */
 @Controller
-public class TypeShowController {
+public class   TypeShowController {
 
     @Autowired
     private TypeService typeService;
